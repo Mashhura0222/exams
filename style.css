@@ -1,0 +1,2443 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+/* .main{
+  padding: 0 180px;
+} */
+header{
+  max-width: 100%;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 0 180px;
+}
+header .header_img img{
+  width: 130px;
+  height: 22px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+gap: 40px;
+}
+
+header nav ul li a{
+  
+  width: 71px;
+  height: 26px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+    color: rgba(66, 69, 81, 1);
+}
+header .icons{
+  
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap:36px;
+
+}
+header .icons .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+header .icons .icon i{
+
+  color: orangered;
+}
+.section1{
+  width: 100%;
+  /* height: 100vh; */
+  background-image: url("./images/bg-image\ \(1\).jpg");
+  background-size: cover;
+  background-position: center;
+background-repeat: no-repeat;
+}
+.section1_text{
+  padding:80px 180px;
+  
+}
+.section1_text h1{
+  width: 577px;
+  height: 150px;
+
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: 1px;
+    color:rgba(255, 255, 255, 1);
+}
+.section1_text h1 span{
+  color: orangered;
+}
+.section1_text p{
+  width: 500px;
+height: 90px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+
+}
+.section1_text .btns{
+  width: 526px;
+height: 30px;
+display: flex;
+align-items: center;
+
+gap: 24px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.section1_text .btns button{
+  width: 278px;
+height: 52px;
+
+border-radius: 4px;
+border: 1px solid white;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 16px;
+line-height: 52px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+background: none;
+  margin-top: 60px;
+color: rgba(255, 255, 255, 1);
+}
+.section1_text .btns button:hover{
+  background: rgba(255, 90, 48, 1);
+  border: none;
+}
+.section1_text .btns  .quti{
+  width: 224px;
+height: 52px;
+
+border-radius: 4px;
+
+
+}
+.section1_box{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+.section1_box .section1_box1{
+  width: 150px;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section1_box .section1_box1 span:hover{
+  cursor: pointer;
+background:slategrey ;
+}
+.section1_box .section1_box1 h4{
+  width: 32px;
+height: 42px;
+opacity: 0.8;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+} 
+.section1_box .section1_box1 h4:hover{
+  cursor: pointer;
+color:slategrey ;
+}
+.section1_box .section1_box1 span{
+  width: 145px;
+  height: 2px;
+  background: white;
+  display: flex;
+  align-items: center;
+ 
+
+}
+.section2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:80px 180px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.section2 .section2_text h1{
+  width: 800px;
+height: 60px;
+
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.section2 .section2_text p{
+  width: 810px;
+height: 27px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+
+text-align: center;
+
+}
+.section2_img img{
+width: 100%;
+filter:contrast(0.4);
+}
+.section3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.section3 h2{
+  width: 342px;
+height: 60px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+.section3 p{
+height: 27px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(120, 122, 128, 1);
+}
+
+
+.section3_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding:40px 180px;
+}
+.section3_box1{
+  width: 285px;
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+ text-align: center;
+
+}
+.section3_box1 .section3_image img{
+  width: 42px;
+  height: 39px;
+
+}
+.section3_box1 .section3_text1 h3{
+  width: 285px;
+  height: 30px;
+  font-family: Ubuntu;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: rgba(30, 33, 44, 1)
+  
+}
+.section3_box1 .section3_text1 p{
+  width: 285px;
+height: 78px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.section3_box b{
+  width: 1px;
+  height: 188px;
+  border: 1px solid rgba(218, 219, 221, 0.5);
+
+  
+  
+
+
+}
+.section4{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px; */
+  padding:70px 180px;
+  border-radius: 10px;
+}
+.section4_div{
+  width: 100%;
+  height: 243px;
+  background: rgba(255, 255, 255, 1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  border-radius: 4px;
+
+
+}
+.section4_div h3{
+  width: 520px;
+height: 42px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+.section4 .section4_box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  
+
+}
+.section4_label{
+ width: 220px;
+height: 73px;
+
+gap: 5px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+
+
+
+}
+.section4_label input{
+  width: 220px;
+  height: 44px;
+  border-radius: 5px;
+  border: none;
+  text-indent: 5px;
+background: rgba(244, 245, 246, 1);
+  border: gray/400;
+  
+}
+.section4_div .btnn{
+  width: 104px;
+height: 44px;
+display: flex;  
+align-items: center;
+justify-content: center;
+margin-top: 25px;
+border-radius: 5px;
+border: none;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 14px;
+line-height: 44px;
+letter-spacing: 0.5px;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: black;
+}
+.section4_div .btnn:hover{
+  background: orangered;
+  color: white;
+}
+.section5{
+  width: 100%;
+  /* height: 100vh; */
+  background-image: url("./images/bg-image\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(243,244,245);
+  border: 1px solid rgba(229, 232, 237, 1);
+position: relative;
+top: -150px;
+z-index: -1;
+
+}
+.section5_text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 180px;
+ 
+}
+.section5_box {
+  padding: 80px 180px;
+  display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+
+}
+.section5_text h2{
+  width: 274;
+height: 60;
+top: 2893px;
+left: 823px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+.section5_text p{
+  width: 810px;
+height: 27px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.section5_div{
+  width: 220px;
+  height: 220px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+background: white;
+
+
+}
+.section5_div1{
+  width: 220px;
+  height: 220px;
+  background-image: url("./images/image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 36px;
+ color: white;
+
+}
+.section6{
+  
+  display: flex;
+  flex-direction: column;
+  padding: 0px 180px;
+ 
+}
+.section6_box{
+ 
+  display: flex;
+  flex-direction: column;
+
+  gap: 60px;
+}
+.section6_box .section6_text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.section6_box .section6_text h1{
+  width: 550px;
+height: 120px;
+
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 40px;
+line-height: 130%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.section6_icons i{
+  width: 40px;
+  height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+  border-radius: 50%;
+
+
+}
+.section6_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section6_icon i:hover{
+  background: orangered;
+  border-radius: 50%;
+  color: white;
+}
+.section6_div{
+  display: flex;
+  align-items: center;
+gap: 30px;
+ 
+
+ 
+}
+
+.section6_aside{
+  width: 330px;
+height: 390px;
+
+border-radius: 4px;
+box-shadow: 0px 10px 10px 10px rgba(19, 19, 20, 0.1);
+
+
+}
+/* .section6_aside:hover{
+  width: 300px;
+  height: 350px;
+} */
+.section6_image img{
+  width: 300px;
+  height: 255px;
+
+}
+.section6_image img:hover{
+  width: 300px;
+height: 200px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+
+}
+.section6_banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+  gap: 5px;
+}
+.section6_banner b{
+  width: 300px;
+height: 30px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.section6_banner span{
+  width: 300px;
+height: 21px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(120, 122, 128, 1);
+}
+.section6_banner button{
+  width: 172px;
+height: 44px;
+border: 1px solid orangered;
+border-radius: 4px;
+background: none;
+color: rgba(255, 90, 48, 1);
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 14px;
+line-height: 44px;
+letter-spacing: 0.5px;
+text-align: center;
+
+text-transform: uppercase;
+
+
+
+}
+.section6_btns{
+
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 40px;
+margin-bottom: 80px;
+}
+.section6_btns h3{
+  width: 283px;
+height: 42px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color:rgba(30, 33, 44, 1);
+}
+.section6_btns button{
+  width: 224px;
+height: 52px;
+border-radius: 4px;
+border: none;
+background: rgba(255, 90, 48, 1);
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 16px;
+line-height: 52px;
+letter-spacing: 0.5px;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
+.section7{
+  width: 100%;
+ 
+background: rgb(244,245,246);
+
+  padding: 80px 180px;
+}
+.section7_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.section7_img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.section7_divs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding: 0px 180px;
+ gap: 100px;
+}
+.section7_texts{
+  width: 500px;
+ display: flex;
+ flex-direction: column;
+
+ gap: 60px;
+
+
+}
+
+.section7_texts h3{
+ 
+  width: 540px;
+height: 60px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+.section7_text{
+  width: 500px;
+  height: 249px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+}
+.section7_text img{
+  width: 72px;
+  height: 72px;
+
+}
+.section7_text p{
+  width: 400px;
+height: 78px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+color: rgba(66, 69, 81, 1);
+}
+.section7_quti{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+
+}
+.section7_1 h4{
+  width: 118px;
+height: 26px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+
+}
+.section7_1 h5{
+  width: 156px;
+height: 21px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.section7_icons i{
+  width: 40px;
+  height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+  border-radius: 50%;
+
+
+}
+.section7_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section7_icon i:hover{
+  background: orangered;
+  border-radius: 50%;
+  color: white;
+}
+.section7_picture {
+  position: relative;
+  top: 120px;
+}
+.section7_picture img{
+  width: 390px;
+  height: 550px;
+}
+.section8{
+width: 100%;
+  height: 100vh;
+  background-image: url("./images/bg-image\ \(2\).png");
+background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  padding: 80px 180px;
+}
+.section8_texts{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+ 
+  text-align: center;
+
+}
+.section8_images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+
+}
+.section9{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 0px 180px;
+}
+.section9 h3{
+  width: 600px;
+  height: 60px;
+  font-family: Ubuntu;
+font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+.section9_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.section9_1{
+  width: 500px;
+height: 540px;
+
+border-radius: 4px;
+
+}
+.section9_texts h5{
+  width: 657px;
+  height: 30px;
+  top: 384px;
+  left: 24px;
+  font-family: Ubuntu;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+  
+}
+.section9_texts  b{
+  width: 91;
+height: 21;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+vertical-align: middle;
+  color: rgba(120, 122, 128, 1);
+}
+.section9_texts p{
+  width: 500px;
+height: 52px;
+
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+
+}
+.section9_image img{
+  width: 500px;
+  height: 360px;
+}
+.section9_2_1{
+  width: 495px;
+height:270px;
+top: 6276px;
+left: 1080px;
+border-radius: 4px;
+
+}
+.section9_2_box img{
+  width: 495px;
+height: 156px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+
+}
+.section9_2_text h5{
+  width: 447px;
+height: 30px;
+
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.section9_2_text h5:hover{
+  color: rgba(255, 90, 48, 1);
+}
+.section9_2_text  b{
+  width: 91;
+height: 21;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+vertical-align: middle;
+  color: rgba(120, 122, 128, 1);
+}
+.section10{
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/image\ \(6\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section10_box{
+  width: 400px;
+height: 540px;
+align-items: center;
+border-radius: 5px;
+border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background: rgba(255, 255, 255, 0.931);
+gap: 20px;
+position: relative;
+top: 40px;
+left: 800px;
+
+}
+.section10_label{
+  width:300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+gap: 20px;
+}
+.section10_label input{
+  height: 50px;
+  text-indent: 5px;
+}
+.section10_label button{
+  width: 174px;
+  height: 44px;
+margin: auto;
+border: none;
+  border-radius: 4px;
+  gap: 10px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: white;
+  background: rgba(255, 90, 48, 1);
+}
+.section10_check{
+  width: 400px;
+
+  display: flex;
+
+  gap: 20px;
+}
+.section10_check p{
+  width: 300px;
+height: 42px;
+
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.section10_box h3{
+  width: 415px;
+height: 42px;
+top: 48px;
+left: 40px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+padding: 10px;
+}
+footer{
+  width: 100%;
+  height: 100vh;
+  background: rgba(30, 33, 44, 1);
+  padding: 80px 180px;
+}
+.footer_1{
+  display: flex;
+  align-items: center;
+gap: 150px;
+ 
+}
+.footers_btn{
+  width: 495px;
+height: 156px;
+margin-top: 40px; 
+
+}
+.footers_btn h4{
+  width: 495;
+  height: 36;
+
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);    
+}
+.footers_input{
+  width: 495px;
+height: 44px;
+
+}
+.footers_input input{
+  width: 360px;
+  height: 44px;
+  text-indent: 5px;
+  background: rgb(57,60,70);
+  border: none;
+  border-radius: 5px;
+}
+.footers_input button{
+  width: 131px;
+  height: 44px;
+  font-family: Ubuntu;
+font-weight: 700;
+font-size: 14px;
+line-height: 44px;
+letter-spacing: 0.5px;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+border: none;
+border-radius: 5px;
+
+}
+.footer_div p{
+  width: 495px;
+height: 36px;
+opacity: 0.6;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+vertical-align: middle;
+color:rgba(255, 255, 255, 1);
+margin-top: 20px;
+
+}
+.footers_input button:hover{
+  color: white;
+  background: orangered;
+}
+.footer_img {
+  display: flex;
+  align-items: center;
+ gap: 80px;
+
+}
+.footer_icons{
+  width: 184px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer_icons i{
+  width: 24px;
+  height: 24px;
+  color: rgb(165,166,171);
+}
+.footer_2{
+  width: 493px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer_2 p{
+  font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+color:rgba(120, 122, 128, 1);
+}
+.footers{
+  display: flex;
+  align-items: center;
+    gap: 100px;
+    margin-top: 80px;
+}
+.footer_text{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer_text h6{
+
+height: 24px;
+top: 285px;
+left: 345px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 1px;
+vertical-align: middle;
+text-transform: uppercase;
+color: rgba(255, 255, 255, 1);
+
+}
+.footers4{
+  width: 349px;
+height: 26px;
+
+gap: 4px;
+
+}
+.footers4 b{
+  width: 63px;
+height: 26px;
+
+  font-family: Ubuntu;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+}
+.footers4 span{
+  width: 282px;
+height: 26px;
+opacity: 0.6;
+  font-family: Ubuntu;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+color:rgb(165,166,171)
+}
+.footer1_text{
+  width: 180px;
+  height: 123px;  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+.footer1_text h6{
+  width: 250px;
+  height: 24px;
+  top: 285px;
+  left: 819px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+.footer_nav ul{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer_nav ul li {
+  width: 137px;
+height: 26px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+a{
+  color:rgb(165,166,171);
+}
+.footer_p{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+.footer_p p{
+  font-family: Ubuntu;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: rgba(255, 255, 255, 1);
+}
+.footer_p i{
+  color: orangered;
+}
+.footer_p .footer_image img{
+  width: 100px;
+height: 30px;
+
+gap: 16px;
+
+}
+.container1{
+  width: 600px;
+  
+
+}
+.aside{
+  width: 600px;
+  height: 400px;
+  background-image: url("./images/bg-image\ \(1\).jpg");
+  background-size: cover;
+  background-position: center;
+background-repeat: no-repeat;
+
+}
+#cart-sidebar {
+  width: 50px;
+
+  position: fixed;
+  top: 0;
+  right: -800px;
+  width: 200px;
+
+  
+  background: #ffffff;
+  border-left: 2px solid #e5e7eb;
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  overflow-y: auto;
+  transition: right 0.3s ease;
+  z-index: 100;
+}
+
+#cart-sidebar.active {
+  right: 0;
+}
+
+#cart-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 101;
+}
+
+/* .saidbar {
+  width: 300px;
+  height: 200px;
+  background-color: lightblue; ko‘rinishi uchun */
+/* } */
+.i {
+  width: 80px;
+  height: 40px;
+  display: inline-block;
+  background-color: red; /* ko‘rinishi uchun */
+}
+
+
+.aside1 h1{
+  width: 577px;
+  height: 80px;
+ 
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 130%;
+  letter-spacing: 1px;
+    color:rgba(255, 255, 255, 1);
+}
+.aside1 h1 span{
+  color: orangered;
+}
+.aside1 p{
+  width: 500px;
+height: 90px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+margin: auto;
+}
+.aside1 .btns{
+  width: 526px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 40px;
+gap: 24px;
+
+}
+.aside1{
+  margin-top: 50px;
+}
+.saidbar button{
+  width: 100px;
+  height: 40px;
+
+}
+.aside1 .btns button{
+  width: 170px;
+height: 45px;
+
+border-radius: 4px;
+border: 1px solid white;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 16px;
+line-height: 52px;
+letter-spacing: 0.5px;
+
+background: none;
+  /* margin-top: 60px; */
+color: rgba(255, 255, 255, 1);
+}
+.aside1 .btns button:hover{
+  background: rgba(255, 90, 48, 1);
+  border: none;
+}
+.aside1 .btns  .quti{
+  width: 150px;
+height: 45px;
+
+border-radius: 4px;
+
+
+}
+
+
+.aside .aside1 span:hover{
+  cursor: pointer;
+background:slategrey ;
+}
+.aside .aside1  h4{
+  width: 32px;
+height: 42px;
+opacity: 0.8;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 14px;
+
+color: rgba(255, 255, 255, 1);
+} 
+.aside .aside1  h4:hover{
+  cursor: pointer;
+color:slategrey ;
+}
+.boxes{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:40px 180px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.boxes .boxes-text h1{
+  width: 600px;
+height: 60px;
+
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 20px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.boxes .boxes-text  p{
+  width: 600px;
+height: 27px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+
+text-align: center;
+
+}
+.boxes2_img img{
+width:600px;
+filter:contrast(0.4);
+}
+.banner{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  /* padding: 0px 180px;  */
+}
+.banner3 h2{
+  width: 342px;
+height: 60px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+margin: auto;
+
+}
+.banner3 p{
+height: 27px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(120, 122, 128, 1);
+}
+
+
+.banner3_box{
+  display: flex;
+flex-direction: column;
+  gap: 20px;
+  padding:40px 180px;
+}
+.banner3_box1{
+  width: 285px;
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+ text-align: center;
+
+}
+.banner3_box1 .banner3_image img{
+  width: 42px;
+  height: 39px;
+
+}
+.banner3_box1 .banner3_text1 h3{
+  width: 285px;
+  height: 30px;
+  font-family: Ubuntu;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: rgba(30, 33, 44, 1)
+  
+}
+.banner3_box1 .banner3_text1 p{
+  width: 285px;
+height: 78px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.key{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 32px;
+
+  border-radius: 10px;
+}
+.key4_div{
+  width: 100%;
+  height: 243px;
+  background: rgba(255, 255, 255, 1);
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 32px;
+  border-radius: 4px;
+
+
+}
+.key4_div h3{
+  width: 520px;
+height: 42px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 22px;
+line-height: 150%;
+letter-spacing: 0%;
+margin: auto;
+text-align: center;
+}
+.key4 .key4_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  
+
+}
+.key4_label{
+ width: 220px;
+height: 73px;
+
+gap: 5px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+
+
+
+}
+.key4_label input{
+  width: 220px;
+  height: 44px;
+  border-radius: 5px;
+  border: none;
+  text-indent: 5px;
+background: rgba(244, 245, 246, 1);
+  border: gray/400;
+  
+}
+.key4_div .btnn{
+  width: 104px;
+height: 44px;
+display: flex;  
+align-items: center;
+justify-content: center;
+margin-top: 25px;
+border-radius: 5px;
+border: none;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 14px;
+line-height: 44px;
+letter-spacing: 0.5px;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: black;
+}
+.key4_div .btnn:hover{
+  background: orangered;
+  color: white;
+}
+
+
+.back{
+  width: 600px;
+  /* height: 100vh; */
+  background-image: url("./images/bg-image\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(243,244,245);
+  border: 1px solid rgba(229, 232, 237, 1);
+position: relative;
+top: -150px;
+z-index: -1;
+
+}
+.back5_text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 180px;
+ 
+}
+.back5_box {
+  /* padding: 80px 180px; */
+  display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+.back5_text h2{
+  width: 274px;
+height: 60px;
+top: 2893px;
+left: 823px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+.back5_text p{
+  width: 600px;
+height: 27px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.back5_div{
+  width: 220px;
+  height: 220px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+background: white;
+margin-top: 20px;
+
+}
+.back5_div1{
+  width: 220px;
+  height: 220px;
+  background-image: url("./images/image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 36px;
+ color: white;
+
+}
+.back1{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.back6{
+  width: 600px;
+}
+.back6_box{
+ 
+  display: flex;
+  flex-direction: column;
+
+  gap: 60px;
+}
+.section6_box .section6_text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.back6_box .back6_text h1{
+  width: 400px;
+height: 120px;
+
+font-family: Ubuntu;
+font-weight: 700;
+font-size: px23;
+line-height: 130%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-align: center;
+margin: auto;
+
+}
+
+
+/* .back6_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back6_icon i:hover{
+  background: orangered;
+  border-radius: 50%;
+  color: white;
+} */
+.back6_div{
+  
+  width: 600px;
+  display: flex;
+flex-direction: column;
+padding: 150px;
+
+gap: 30px;
+ 
+
+ 
+}
+
+/* .back6_aside{
+  width: 330px;
+height: 390px;
+
+border-radius: 4px;
+box-shadow: 0px 10px 10px 10px rgba(19, 19, 20, 0.1);
+
+
+} */
+/* .section6_aside:hover{
+  width: 300px;
+  height: 350px;
+} */
+.back6_image img{
+  width: 300px;
+  height: 255px;
+
+
+}
+.back6_image img:hover{
+  width: 300px;
+height: 200px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+
+}
+.back6_banner{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+  margin-top: 16px;
+  gap: 5px;
+}
+.back6_banner b{
+  width: 300px;
+height: 30px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.back6_banner span{
+  width: 300px;
+height: 21px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(120, 122, 128, 1);
+}
+.back6_banner button{
+  width: 150px;
+height: 44px;
+border: 1px solid orangered;
+border-radius: 4px;
+background: none;
+color: rgba(255, 90, 48, 1);
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 14px;
+line-height: 44px;
+letter-spacing: 0.5px;
+
+
+
+
+
+
+}
+.back6_btns{
+
+height: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 40px;
+margin-bottom: 80px;
+}
+.back6_btns h3{
+  width: 283px;
+height: 42px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color:rgba(30, 33, 44, 1);
+}
+.back6_btns button{
+  width: 224px;
+height: 52px;
+border-radius: 4px;
+border: none;
+background: rgba(255, 90, 48, 1);
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 16px;
+line-height: 52px;
+letter-spacing: 0.5px;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
+.back2{
+  width:600px;
+
+background: rgb(244,245,246);
+
+  padding: 80px 140px;
+}
+.back7_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.back7_img{
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.back7_divs{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+ gap: 100px;
+}
+.back7_texts{
+  width: 500px;
+ display: flex;
+ flex-direction: column;
+
+ gap: 60px;
+
+
+}
+
+.back7_texts h3{
+ 
+  width: 450px;
+height: 60px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0%;
+vertical-align: middle;
+margin-top: 40px;
+}
+.back7_text{
+  width: 500px;
+  height: 249px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+}
+.back7_text img{
+  width: 72px;
+  height: 72px;
+
+}
+.back7_text p{
+  width: 400px;
+height: 78px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+letter-spacing: 0%;
+color: rgba(66, 69, 81, 1);
+}
+.back7_quti{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+
+
+}
+.back7_1 h4{
+  width: 118px;
+height: 26px;
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+
+}
+.back7_1 h5{
+  width: 156px;
+height: 21px;
+font-family: Ubuntu;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.back7_icons i{
+  width: 40px;
+  height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+  border-radius: 50%;
+
+
+}
+.back7_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back7_icon i:hover{
+  background: orangered;
+  border-radius: 50%;
+  color: white;
+}
+
+.back7_picture img{
+  width: 390px;
+  height: 400px;
+}
+.back8{
+  width: 600px;
+    
+    background-image: url("./images/bg-image\ \(2\).png");
+  background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 80px 180px;
+  }
+  .back8_texts{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+   
+    text-align: center;
+  
+  }
+  .back8_images{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+  
+  }
+.back4{
+width: 600px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+    gap: 60px;
+   padding: 0px 180px;
+  
+  }
+  .back9{
+    width: 600px;
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+
+  }
+.back9 h3{
+    width: 600px;
+    height: 60px;
+    font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  
+  }
+.back9_box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+.back9_1{
+    width: 500px;
+  height: 540px;
+  
+  border-radius: 4px;
+  
+  }
+.back9_texts h5{
+    width: 657px;
+    height: 30px;
+    top: 384px;
+    left: 24px;
+    font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+    
+  }
+.back9_texts  b{
+    width: 91px;
+  height: 21px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+    color: rgba(120, 122, 128, 1);
+  }
+.back9_texts p{
+    width: 500px;
+  height: 52px;
+  
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  
+  }
+.back9_image img{
+    width: 350px;
+    height: 360px;
+  }
+  .back9_2_1{
+    width: 350px;
+  height:270px;
+  
+  border-radius: 4px;
+  
+  }
+  .back9_2_box img{
+    width: 350px;
+  height: 156px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  
+  }
+.back9_2_text h5{
+    width: 447px;
+  height: 30px;
+  
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  
+  }
+.back9_2_text h5:hover{
+    color: rgba(255, 90, 48, 1);
+  }
+  .back9_2_text  b{
+    width: 91;
+  height: 21;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+    color: rgba(120, 122, 128, 1);
+  }
+ 
+  .back10{
+    width: 600px;
+
+  }
+  .back10_box{
+    width: 400px;
+  height: 540px;
+  align-items: center;
+  border-radius: 5px;
+  border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  background: rgba(255, 255, 255, 0.931);
+  gap: 20px;
+
+  
+  }
+  .back10_label{
+    width:300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+  gap: 20px;
+  }
+  .back10_label input{
+    height: 50px;
+    text-indent: 5px;
+  }
+  .back10_label button{
+    width: 174px;
+    height: 44px;
+  margin: auto;
+  border: none;
+    border-radius: 4px;
+    gap: 10px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: white;
+    background: rgba(255, 90, 48, 1);
+  }
+  .back10_check{
+    width: 400px;
+  
+    display: flex;
+  
+    gap: 20px;
+  }
+  .back10_check p{
+    width: 300px;
+  height: 42px;
+  
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  
+  }
+  .back10_box h3{
+    width: 415px;
+  height: 42px;
+  top: 48px;
+  left: 40px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  }
+  footer{
+    width: 600px;
+    height: 100vh;
+    background: rgba(30, 33, 44, 1);
+   
+  }
+  .footers_1{
+    display: flex;
+    align-items: center;
+  gap: 50px;
+   
+  }
+  .footers_btn{
+    width: 495px;
+  height: 156px;
+  margin-top: 40px; 
+  
+  }
+  .footers_btn h4{
+    width: 495;
+    height: 36;
+  
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);    
+  }
+  .footers_input{
+    width: 495px;
+  height: 44px;
+  
+  }
+  .footers_input input{
+    width: 360px;
+    height: 44px;
+    text-indent: 5px;
+    background: rgb(57,60,70);
+    border: none;
+    border-radius: 5px;
+  }
+  .footers_input button{
+    width: 131px;
+    height: 44px;
+    font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  
+  }
+  .footers_div p{
+    width: 495px;
+  height: 36px;
+  opacity: 0.6;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color:rgba(255, 255, 255, 1);
+  margin-top: 20px;
+  
+  }
+  .footers_input button:hover{
+    color: white;
+    background: orangered;
+  }
+  .footers_img {
+    display: flex;
+    align-items: center;
+   gap: 80px;
+  
+  }
+  .footers_icons{
+    width: 184px;
+    height: 24px;
+    display: flex;
+   flex-direction: column;
+    gap: 20px;
+  }
+  .footers_icons i{
+    width: 24px;
+    height: 24px;
+    color: rgb(165,166,171);
+  }
+  .footers_2{
+    width: 493px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .footers_2 p{
+    font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color:rgba(120, 122, 128, 1);
+  }
+  .footerss{
+    display: flex;
+    align-items: center;
+      gap: 50px;
+      margin-top: 80px;
+  }
+  .footers_text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footers_text h6{
+  
+  height: 24px;
+  top: 285px;
+  left: 345px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  
+  }
+  .footerss4{
+    width: 349px;
+  height: 26px;
+  
+  gap: 4px;
+  
+  }
+  .footerss4 b{
+    width: 63px;
+  height: 26px;
+  
+    font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  }
+  .footerss4 span{
+    width: 282px;
+  height: 26px;
+  opacity: 0.6;
+    font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color:rgb(165,166,171)
+  }
+  .footers1_text{
+    width: 180px;
+    height: 123px;  
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+  }
+  .footers1_text h6{
+    width: 250px;
+    height: 24px;
+    top: 285px;
+    left: 819px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    text-transform: uppercase;
+      color: rgba(255, 255, 255, 1);
+  }
+  .footers_nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .footers_nav ul li {
+    width: 137px;
+  height: 26px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  
+  }
+  a{
+    color:rgb(165,166,171);
+  }
+  .footers_p{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+  }
+  .footers_p p{
+    font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 1);
+  }
+  .footers_p i{
+    color: orangered;
+  }
+  .footers_p .footers_image img{
+    width: 100px;
+  height: 30px;
+  
+  gap: 16px;
+  
+  }
+
+  .container {
+    display: block; /* yoki flex */
+  }
+  
+  .container1 {
+    display: none; /* asosiy holatda yashirin */
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      display: none; /* 600px dan kichik bo'lsa yashirin */
+    }
+    .container1 {
+      display: block; /* 600px dan kichik bo'lsa ko'rsatiladi */
+    }
+  }
+  
