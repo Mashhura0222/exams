@@ -12,9 +12,68 @@
   padding: 0 10px;
 }
 
-/* .main{
-  padding: 0 180px;
-} */
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo img {
+  height: 40px;
+}
+
+#show {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0; 
+  width: 250px;
+  height: 100vh; 
+  background: #ffffffd4;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.3); 
+  padding: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%); 
+
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.sidebar.show {
+  transform: translateX(0);
+}
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.sidebar.show {
+  display: flex;
+}
+
+/* Close button */
+.sidebar .close-btn {
+  align-self: flex-end;
+  font-size: 22px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: #555;
+}
 header{
   max-width: 100%;
   height: 52px;
@@ -303,6 +362,25 @@ text-align: center;
   
 
 
+
+}
+
+.header-img-btn2 {
+  width: 200px;
+  height: 53px;
+  padding: 18px 30px;
+  background: #FF5A30;
+  font-size: 16px;
+  border-radius: 4px;
+
+  outline: none;
+  margin-left: 24px;
+  text-align: center;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  transition: background-color 0.5s;
+  margin-top: 60px;
 }
 .section4{
   /* display: flex;
@@ -549,10 +627,7 @@ box-shadow: 0px 10px 10px 10px rgba(19, 19, 20, 0.1);
 
 
 }
-/* .section6_aside:hover{
-  width: 300px;
-  height: 350px;
-} */
+
 .section6_image img{
   width: 300px;
   height: 255px;
@@ -1229,11 +1304,14 @@ gap: 16px;
 
 }
 .container1{
-  width: 600px;
-  
+  max-width: 600px;
+padding: 0px 10px;
+display: flex;
+
 
 }
-.aside{
+
+.aside1{
   width: 600px;
   height: 400px;
   background-image: url("./images/bg-image\ \(1\).jpg");
@@ -1242,56 +1320,115 @@ gap: 16px;
 background-repeat: no-repeat;
 
 }
-#cart-sidebar {
-  width: 50px;
-
-  position: fixed;
-  top: 0;
-  right: -800px;
-  width: 200px;
-
-  
-  background: #ffffff;
-  border-left: 2px solid #e5e7eb;
-  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.05);
+ /* Navbar uslubi */
+.navbar {
+ 
+  background-color: #fff;
   padding: 20px;
-  overflow-y: auto;
-  transition: right 0.3s ease;
-  z-index: 100;
+  position: relative;
+  z-index: 10;
 }
 
-#cart-sidebar.active {
-  right: 0;
+.navbar a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
 }
 
-#cart-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background: #3b82f6;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 50px;
-  cursor: pointer;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 101;
+/* Rasmli quti */
+.work-box {
+  position: absolute;
+  top: -400px;
+  left: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  opacity: 0;
+  transition: all 0.8s ease;
+  z-index: 5;
+  pointer-events: none;
 }
 
-/* .saidbar {
-  width: 300px;
-  height: 200px;
-  background-color: lightblue; ko‘rinishi uchun */
-/* } */
-.i {
-  width: 80px;
-  height: 40px;
+/* Quti ochilganda */
+.work-box.show {
+  top: 70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.work-card {
+  width: 180px;
+
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  overflow: hidden;
+  text-align: center;
+}
+
+.work-card img {
+ 
+  display: block;
+}
+
+.work-card p {
+  padding: 10px;
+  font-weight: bold;
+}
+
+#workBox{
+  width: 700px;
+ height: 500px;
+ border-radius: 10px;
+ position: absolute;
+ left: 100px;
+}
+.card1{
+
+display:grid;
+grid-template-columns: repeat(3,1fr);
+}
+.card {
+  width: 100%;
+  max-width: 300px;
+}
+
+.card img {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+}
+.card-content {
+  padding: 15px;
+  text-align: center;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+.card-subtitle {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+.view-button {
   display: inline-block;
-  background-color: red; /* ko‘rinishi uchun */
-}
-
-
-.aside1 h1{
+  margin: 10px auto;
+  padding: 8px 16px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}.aside1 h1{
   width: 577px;
   height: 80px;
  
@@ -2193,27 +2330,29 @@ width: 600px;
   vertical-align: middle;
   padding: 10px;
   }
-  footer{
+ 
+  .footer{
     width: 600px;
-    height: 100vh;
+
+   
     background: rgba(30, 33, 44, 1);
    
   }
   .footers_1{
     display: flex;
-    align-items: center;
+    flex-direction: column;
   gap: 50px;
-   
+   padding: 40px;
   }
   .footers_btn{
     width: 495px;
   height: 156px;
   margin-top: 40px; 
-  
+ 
   }
   .footers_btn h4{
-    width: 495;
-    height: 36;
+    width: 495px;
+    height: 36px;
   
     font-family: Ubuntu;
     font-weight: 700;
@@ -2303,9 +2442,12 @@ width: 600px;
   }
   .footerss{
     display: flex;
-    align-items: center;
+    display: flex;
+  flex-direction: column;
+  align-items: start;
       gap: 50px;
       margin-top: 80px;
+      padding: 40px;
   }
   .footers_text{
     display: flex;
@@ -2425,19 +2567,21 @@ width: 600px;
   }
 
   .container {
-    display: block; /* yoki flex */
+    display: block; 
   }
   
   .container1 {
-    display: none; /* asosiy holatda yashirin */
+    display: none; 
   }
   
   @media (max-width: 600px) {
     .container {
-      display: none; /* 600px dan kichik bo'lsa yashirin */
+      display: none;
     }
     .container1 {
-      display: block; /* 600px dan kichik bo'lsa ko'rsatiladi */
-    }
+      display: block;}
+    #show {
+        display: block; 
   }
   
+  }

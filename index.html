@@ -30,13 +30,100 @@
             <a href="./servies.html">Servies</a>
           </li>
           <li>
-            <a href="./work.html">Work</a>
+            
+            
+            
+            
+       
+              <a href="./work.html" id="workLink">Work</a>
+           
           </li>
+          
+          <div id="workBox" class="work-box">
+            <div class="section45">
+          <div class="card1">
+            <div class="card">
+              <img src="./images/b.png" alt="Cubes Building">
+              <div class="card-content">
+                <div class="card-title">Cubes Building</div>
+                <div class="card-subtitle">Business Centers</div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <img src="/images/2222.png" alt="Modern Cottage">
+              <div class="card-content">
+                <div class="card-title">Modern Cottage</div>
+                <div class="card-subtitle">Private houses</div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <img src="./images/33.png" alt="Luxury Beach House">
+              <div class="card-content">
+                <div class="card-title">Luxury Beach House</div>
+                <div class="card-subtitle">Private houses</div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <img src="./images/44.png" alt="Modern Double Bedroom">
+              <div class="card-content">
+                <div class="card-title">Modern Double Bedroom</div>
+                <div class="card-subtitle">Apartments & flats</div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <img src="./images/55.png" alt="Kids Bedroom With Decorations">
+              <div class="card-content">
+                <div class="card-title">Kids Bedroom With Decorations</div>
+                <div class="card-subtitle">Apartments & flats</div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <img src="./images/d.png" alt="The Pencil Building">
+              <div class="card-content">
+                <div class="card-title">The Pencil Building</div>
+                <div class="card-subtitle">Stores & Malls</div>
+                <a href="#" class="view-button">VIEW PROJECT</a>
+              </div>
+            </div>
+          
+           
+          
+          
+           
+          
+          </div>
+          
+                
+              </div>
+     
+          </div>
+          
+<!-- Tepadagi ochiladigan rasmli div -->
+<!-- <div id="workDrop" class="work-drop">
+  <div class="work-card">
+    <img src="./images/img1.jpg" alt="Project 1">
+    <p>Project 1</p>
+  </div>
+  <div class="work-card">
+    <img src="./images/img2.jpg" alt="Project 2">
+    <p>Project 2</p>
+  </div>
+  <div class="work-card">
+    <img src="./images/img3.jpg" alt="Project 3">
+    <p>Project 3</p>
+  </div>
+</div> -->
+
           <li>
             <a href="./news.html">News</a>
           </li>
           <li>
-            <a href="./contact.html">Contacts</a>
+            <a href="">Contacts</a>
           </li>
          
         </ul>
@@ -50,7 +137,7 @@
       </div>
       </div>
       <div class="icon">
-      <i class="fa-regular fa-comments"></i>
+        <i class="fa-regular fa-messages"></i>
       <div class="icon_text">
       <h4>Calls us</h4>
       <p>(405) 555-0128</p>
@@ -58,7 +145,7 @@
       </div>
        </div>
         
-    </header>
+      </header>
     
     <div class="section1">
       <div class="section1_text">
@@ -69,7 +156,7 @@ CONSTRUCTION
         <p>Cras ultrices leo vitae non viverra. Fringilla nisi quisque consequat, dignissim vitae proin ipsum sed. Pellentesque nec turpis purus eget pellentesque integer ipsum elementum felis. </p>
         <div class="btns">
           <button type="submit">Learn more about us</button>
-          <button class="quti">SUBMIT REQUEST</button>
+          <a href="./quti.html" class="header-img-btn2">SUBMIT REQUEST</a>
         </div>
 
         <div class="section1_box">
@@ -508,19 +595,27 @@ CONSTRUCTION
 
 </div>
 <div class="container1">
-
-  
-  <div class="aside">
-    
-    
-    <div class="aside1">
-      <button id="cart-toggle" >🛒</button>
-      <div id="main"></div>
-    <div id="cart-sidebar">
-      <h3>Savatcha</h3>
-     
+  <header class="header">
+    <div class="logo">
+      <img src="./images/logo.png" alt="Logo" />
     </div>
-      <h1>
+    <i id="show" class="fa-solid fa-bars"></i>
+  </header>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <span class="close-btn" id="closeBtn">&times;</span>
+    <a href="./about.html">About Us</a>
+    <a href="./servies.html">Services</a>
+    <a href="./work.html">Work</a>
+    <a href="./news.html">News</a>
+    <a href="./contact.html">Contacts</a>
+  </div>
+
+    <div class="aside1">  
+    
+    
+      <!-- <h1>
         CREATE <span>X</span>
 CONSTRUCTION
       </h1>
@@ -528,9 +623,9 @@ CONSTRUCTION
       <div class="btns">
         <button type="submit">Learn more about us</button>
         <button class="quti">Submit request</button>
-    </div>
+    </div> -->
   </div>
-</div>
+
 <div class="boxes">
   <div class="boxes-text">
     <h1>  We are Createx Construction Bureau </h1>
@@ -847,7 +942,7 @@ CONSTRUCTION
     </div>
   </div>
 </div>
-<footer>
+<div class="footer">
   <div class="footers_box">
     <div class="footers_1">
     <div class="footers_2">
@@ -865,20 +960,20 @@ CONSTRUCTION
       <p>Createx Construction Bureau has been successfully operating in the USA construction market since 2000. We are proud to offer you quality construction and exemplary service. Our mission is to set the highest standards for construction sphere.</p>
     </div>
     <div class="footers_btn">
-      <!-- <div class="footers_div">
+      <div class="footers_div">
         <h4>Let’s stay in touch</h4>
         <div class="footers_input">
           <input type="email" placeholder="Your email address">
           <button type="submit">subscribe</button>
         </div>
         <p>*Subscribe to our newsletter to receive communications and early updates from Createx Construction Bureau.</p>
-      </div> -->
+      </div>
     </div>
     </div>
 
     <div class="foooters_ii">
       <div class="footerss">
-        <!-- <div class="footerss_text">
+        <div class="footerss_text">
           <h6>HEAD OFFICE</h6 >
          <div class="footerss4">
           <b>Address:</b><span>8502 Preston Rd. Inglewood, New York</span>
@@ -891,10 +986,10 @@ CONSTRUCTION
           <b>Email:</b><span>hello@createx.com</span>
          </div>
          
-        </div> -->
+        </div> 
   
-        <div class="footers1_text">
-          <h6>WHO WE ARE</h6>
+         <div class="footers1_text">
+          <h6>WHO WE ARE</h6> 
   
           <div class="footers_nav">
             <nav>
@@ -940,16 +1035,21 @@ CONSTRUCTION
       
       </div>
       
-    </div>
+    </div> -->
     <!-- <div class="footers_p">
       <p>© All rights reserved. Made with <i class="fa-regular fa-heart"></i>  by Createx Studio   </p> 
       <div class="footers_image">
         <img src="/images/up.png" alt="">
       </div>
-    </div> -->
+    </div>
   </div>
+  </div>
+  
+</div>
 </footer>
   </div>
+  </div>
+  <script src="./app.js"></script>
 </body>
 </html>
 
