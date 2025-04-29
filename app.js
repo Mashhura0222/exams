@@ -36,7 +36,11 @@ document.addEventListener("DOMContentLoaded", () => {
         workBox.classList.remove('show');
       }
     }, 200);
-  });
+  });workLink.addEventListener('click', function (e) {
+  e.preventDefault();
+  workBox.classList.toggle('show');
+});
+
 
   // Rasmli qutiga sichqon kirsa — yopilmasin
   workBox.addEventListener('mouseleave', () => {
