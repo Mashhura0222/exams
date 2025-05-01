@@ -12,24 +12,18 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-  // const workBtn = document.getElementById('workBtn');
-  // const workDrop = document.getElementById('workDrop');
-
-  // workBtn.addEventListener('click', (e) => {
-  //   e.preventDefault(); // sahifa qayta yuklanmasin
-  //   workDrop.classList.toggle('show');
-  // });
+ 
 
 
   const workLink = document.getElementById('workLink');
   const workBox = document.getElementById('workBox');
 
-  // Sichqoncha olib borilganda ochiladi
+
   workLink.addEventListener('mouseenter', () => {
     workBox.classList.add('show');
   });
 
-  // Sichqoncha olib chiqilganda yopiladi
+  
   workLink.addEventListener('mouseleave', () => {
     setTimeout(() => {
       if (!workBox.matches(':hover')) {
@@ -42,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-  // Rasmli qutiga sichqon kirsa — yopilmasin
+
   workBox.addEventListener('mouseleave', () => {
     workBox.classList.remove('show');
   });
